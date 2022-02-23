@@ -4,9 +4,9 @@ using namespace std;
 
 void line(void)
 {
-	// GL_LINE_STRIP
 	glClear(GL_COLOR_BUFFER_BIT);
-	glPointSize(50.0f);
+
+	// GL_LINE_STRIP
 	glBegin(GL_LINE_STRIP);
 	glColor3ub(255, 10, 10); glVertex3f(-0.9, 0.9, 0.0);
 	glColor3ub(255, 213, 61); glVertex3f(-0.4, 0.2, 0.0);
